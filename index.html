@@ -3,46 +3,114 @@
 <title>Uki Website</title>
 <style>
 
+
+center{
+  left: 60%;
+}
+
 .ul1{
-    display: inline;
+  display: inline-block;
+  padding-top: 25px;
+    list-style: none;
+    margin: 10px 50px 10px 10px ;
+
+}
+.ul1 a{
+  color: #525564;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+ul li a:hover{
+  color: whitesmoke;
+  border-bottom: 1px solid darkgrey  ;
+}
+
+ul{
+  background-color:#C0C0C0;
+  height: 100px;
+  left: 50%;
+  margin: -10px -30px 0 -30px ;
+}
+
+
+.box{
+  display: flex;
+  align-items: center;
+  margin: 20px 200px 20px 200px;
+  padding: 20px 20px 20px 30px;
+  box-shadow: 1px 1px 10px 2px lightgrey;
+}
+
+body{
+  background-color: whitesmoke;
 }
 
 .box1{
- border-radius: 25px;
- background: lightblue;
- padding: 20px;
- width: 400px;
- height: 350px;
+  background-color: #000090;
+  border-radius: 4px;
 }
 
 .box2{
- border-radius: 25px;
- background:lightgrey;
- padding: 20px;
- width: 300px;
- height: 250px;
- position:absolute;
- left: 0px;
-}
-.box3{
- border-radius: 25px;
- background: lightgrey;
- padding: 20px;
- width: 600px;
- height: 250px;
- align:right;
- position:absolute;
- right: 0px;
+  background-color:#C0C0C0;
+  border-radius: 4px;
 }
 
-.box4{
- border-radius: 0px;
- background: lightblue;
- width: 100%;
- height: 30px;
- text-align: center;
- position: fixed;
- bottom: 0px;
+.box3{
+  background-color:#000090;
+  border-radius: 4px;
+}
+.left{
+  width: 30%;
+ 
+}
+.right{
+  text-align: left;
+  width: 60%;
+  left: 40%;
+}
+.right p{
+  text-align: left;
+  line-height: 30px;
+  font-size: 1.2rem;
+  letter-spacing: 0.4px;
+  word-spacing: 1.5px;
+  color: lightblue;
+  
+}
+.box img{
+  margin:auto;
+}
+
+.right1{
+width: 75%;
+}
+
+.right1 p{
+  text-align: left;
+  line-height: 30px;
+  font-size: 1.2rem;
+  font-family: Times New Roman;
+
+}
+.right1 ul li{
+  text-align: left;
+  line-height: 30px;
+  font-size: 1.2rem;
+  font-family:  ;
+
+}
+h1{
+  font-family: sans;
+  color: aliceblue;
+}
+
+footer{
+  margin: auto;
+}
+
+
 }
 </style>
 
@@ -59,43 +127,48 @@
 
   </center>
 <center>
+  <div class="box">
 <img src="uki123.png" alt="uki image" >
+</div>
 </center>
 <br>
 
 
 
 <center>
-<div class="box1">
-  <h1> Welcome to Uki-Stepping stone totech life</h1>
-  <p align="center">It is a full scholarship based Accelerator program for Coding in Jaffna, Sri Lanka targeting students who has completed Advanced Level examinations and don’t have access to university education or any other form of vocational education. It is aimed to provide the necessary training to enter Computer Software industry or to start an IT startup.
-This is a joint initiative by Yarl IT Hub and SERVE Foundation. Yarl IT Hub has been functioning for the last five years as a not for profit social enterprise focusing on technology entrepreneurship in northern Sri Lanka and SERVE Foundation is a four year old foundation focusing on using technology to uplift secondary education standards in rural schools in northern Sri Lanka.</p>
+<div class="box box1">
+  <div class="left">
+  <h1> Welcome to Uki-Stepping stone totech life</h1></div>
+  <div class="right"><p align="center">It is a full scholarship based Accelerator program for Coding in Jaffna, Sri Lanka targeting students who has completed Advanced Level examinations and don’t have access to university education or any other form of vocational education. It is aimed to provide the necessary training to enter Computer Software industry or to start an IT startup.
+This is a joint initiative by Yarl IT Hub and SERVE Foundation. Yarl IT Hub has been functioning for the last five years as a not for profit social enterprise focusing on technology entrepreneurship in northern Sri Lanka and SERVE Foundation is a four year old foundation focusing on using technology to uplift secondary education standards in rural schools in northern Sri Lanka.</p></div>
 </div>
 </center>
 
 
 
-<div class="box2">
-<h1>COURSE</h1>
-<p>Our vision is to be a leading center of excellence in teaching,learning,research and scholorship</p>
+<div class="box box2" >
 
-<ul list-style-type="circle" >
+<div class="right1"><p>Our vision is to be a leading center of excellence in teaching,learning,research and scholorship
+
+<ul >
   <li >Programming</li>
   <li>Basic Business Skills </li>
   <li>Spoken English and Communication Skills</li>
   <li>Personal Coaching</li>
-</ul>
+</ul></p>
+</div>
+<div class="left1"><h1>COURSE</h1></div>
 
 </div>
 
-<div class="box3">
-  <h1>CODING ACCELERATOR PROGRAM</h1>
-  <p>This Coding Accelerator program is an intensive training on full-stack development with server-side Node.js and modern, client-side, front-end libraries and frameworks.
+<div class="box box3">
+  <div class="left"><h1>CODING ACCELERATOR PROGRAM</h1></div>
+  <div class="right"><p>This Coding Accelerator program is an intensive training on full-stack development with server-side Node.js and modern, client-side, front-end libraries and frameworks.
 
-Throughout this intensive course, the student will study professional software development techniques and practices as he/she advances his/her skills on JavaScript.</p>
+Throughout this intensive course, the student will study professional software development techniques and practices as he/she advances his/her skills on JavaScript.</p></div>
 </div>
 
-<footer class="box4">
+<footer class=" box box4">
   2017 © Uki All Rights Reserved.A joint initiative by YarlITHub and SERVE Foundation
 </footer>
 
