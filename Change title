@@ -11,7 +11,7 @@
 <body>
     <nav>
         <ul class="dropdown-menu">
-            <li><a href="#">HOME</a></li>
+            <li><a href="#">HOME </a></li>
             <li>
                 <a href="#">CURSOS &#9660;</a>
                 <ul class="dropdown-submenu">
